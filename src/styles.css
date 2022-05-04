@@ -1,0 +1,140 @@
+body {
+  background-image: url("../images/cloud-image.webp");
+  background-size: cover;
+  margin-top: 20px;
+}
+
+#city-input {
+  width: 350px;
+}
+
+#search-button {
+  background: blue;
+  border: 2px solid navy;
+  border-radius: 10px;
+  color: white;
+  width: 80px;
+}
+
+#search-button:hover {
+  background: white;
+  color: navy;
+  transition: all 200ms ease-in-out;
+}
+
+#current-location-button {
+  background: green;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  color: white;
+  width: 80px;
+}
+
+#current-button:hover {
+  background: white;
+  color: darkgreen;
+  transition: all 200ms ease-in-out;
+}
+
+h1 {
+  color: blue;
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: "Rubik", sans-serif;
+  color: grey;
+  text-align: left;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  color: grey;
+  font-family: "Rubik", sans-serif;
+  max-width: 100%;
+}
+
+.container-city {
+  max-width: 100%;
+}
+
+.container-info {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  color: grey;
+  vertical-align: bottom;
+  position: relative;
+  padding: 0;
+}
+
+.temperature {
+  line-height: 100px;
+  font-size: 120px;
+  vertical-align: top;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
+
+.container-days {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+img {
+  width: 150px;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+}
+
+form {
+  margin-left: 0 auto;
+  margin-top: 40px;
+  padding-left: 65px;
+}
+
+.weather-icon {
+  font-size: 95px;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+.high-temp {
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.slash {
+  font-size: 30px;
+}
+
+.low-temp {
+  color: blue;
+  font-size: 30px;
+}
+
+.card-title {
+  font-size: 35px;
+}
